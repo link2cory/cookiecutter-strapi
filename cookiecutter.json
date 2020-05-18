@@ -1,0 +1,15 @@
+{
+  "project_name": "strapi-app",
+  "project_slug": "{{ cookiecutter.project_name | lower | replace(' ', '-') }}",
+  "project_description": "strapi app",
+  "license": ["MIT"],
+  "install_dependencies": ["yes", "no"],
+  "jwt_secret": "CHANGE_ME",
+  "database": {
+    "development": {
+      "connector": ["bookshelf", "mongoose"],
+      "host": "127.0.0.1",
+      "port": 27017
+    }
+  }
+}
