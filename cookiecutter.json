@@ -4,6 +4,11 @@
   "project_description": "strapi app",
   "license": ["MIT"],
   "install_dependencies": ["yes", "no"],
+  "is_subpackage": ["yes", "no"],
+  "use_git": ["yes", "no"],
+  "use_github": ["yes", "no"],
+  "github_user": "",
+  "github_token": "",
   "jwt_secret": "CHANGE_ME",
   "database": {
     "development": {
